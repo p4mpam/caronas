@@ -5,13 +5,14 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Lato, Poppins;
 }
 body{
     background-color: #111111;
 }
 header{
     background-color: #F2F2F2;
+    border-radius: 0px 0px 15px 15px;
 }
 
 .navbar{
@@ -25,6 +26,9 @@ header{
 .logo{
     width: 140px;
     cursor: pointer;
+}
+h1{
+    font-family: Lato;
 }
 .navbar ul li{
     list-style: none;
