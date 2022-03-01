@@ -23,7 +23,7 @@ header{
 }
 nav{
     width: 100%;
-    height: 117px;
+    height: 100px;
     margin: auto;
     padding: 15px Q;
     display: flex;
@@ -33,30 +33,21 @@ nav{
 ul{
     list-style: none;
     letter-spacing: 3px;
-    margin-left: 32px;
     line-height: 30px;
 }
 .logo{
-    width: 150px;
-    right: 50px;
-    line-height: 80px;
-}
-h1{
-    font-family: Lato;
-    font-size: 60px;
-    padding-right: 500px;
+    width: 300px;
 }
 ul li{
     list-style: none;
     margin: 0 15px;
-    margin-right: 20px;
     float: right;
  
 }
 nav ul li a{
     text-decoration: none;
     color: #5C5353;
-    font-size: 15px;
+    font-size: 10px;
     font-family: Poppins;
     text-transform: uppercase;
     padding: 7px 13px;
@@ -84,7 +75,7 @@ a.active, a:hover{
     display: none;
 }
 @media(max-width: 952px){
-    .logo h1{
+    .logo{
         padding-left: 50px;
     }
 }
@@ -104,5 +95,9 @@ button{
     border: none;
     font-family: Poppins;
     padding: 1px;
+    cursor: pointer;
+}
+.sing{
+    width: 30px;
     cursor: pointer;
 }
