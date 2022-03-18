@@ -10,6 +10,9 @@
 body{
     background-color: #000000;
 }
+
+/* HEADER/CABEÇA DO SITE, LUGARZINHO ONDE ESTÁ OS LINS E LOGO }*/
+
 nav{
     height: 80px;
     background: #F2F2F2;
@@ -68,4 +71,73 @@ label #cancel{
     nav ul li a{
         font-size: 17px;
     }
+}
+
+/* COMEÇO DAS PAGES! NO CASO AS SECTION }*/
+
+.baixe{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-family: Roboto;
+    justify-content: center;
+}
+.baixeaqui{
+    display: flex;
+    flex-direction: column;
+}
+.umbaixe{
+    color: #FFFF;
+    font-size: 70px;
+}
+.caronasum{
+    color: #FF4301;
+    font-size: 100px;
+}
+.dispo{
+    color: #FFFF;
+    font-size: 13px;
+    left: 20px;
+}
+.um{
+    font-size: 25px;
+    color: #F2F2F2;
+}
+button{
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    height: 44px;
+    width: 200px;
+    color: #2F2E41;
+    margin: 0 5px;
+}
+
+/*  }*/
+
+.diferencial{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+.bolapreta{
+    height: 200px;
+    width: 200px;
+    background-color: #171717;
+    border-radius: 50%;
+    display: inline-block;
+}
+.bolacinza{
+    height: 200px;
+    width: 200px;
+    background-color: #5C5353;
+    border-radius: 50%;
+    display: inline-block;
+}
+.bolalaranja{
+    height: 200px;
+    width: 200px;
+    background-color: #FF4301;
+    border-radius: 50%;
+    display: inline-block;
 }
