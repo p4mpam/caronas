@@ -119,6 +119,10 @@ button{
 .diferencial{
     background-color: #FFFFFF;
     border-radius: 15px;
+    justify-items: center;
+}
+.bolas{
+
 }
 .bolapreta{
     height: 200px;
