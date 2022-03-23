@@ -37,6 +37,8 @@ nav ul li a{
     font-family: Poppins;
     font-size: 15px;
     text-transform: uppercase;
+    padding: 7px 12px;
+    border-radius: 3px;
 }
 a.active, a:hover{
     background: #FF4301;
