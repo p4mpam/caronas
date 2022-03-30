@@ -29,7 +29,7 @@ nav ul{
 nav ul li{
     display: inline-block;
     line-height: 80px;
-    margin: 0 10px;
+    margin: 0 5px;
 }
 nav ul li a{
     position: relative;
@@ -70,7 +70,7 @@ label #cancel{
         width: 130px;
     }
     nav ul li a{
-        font-size: 17px;
+        font-size: 12px;
     }
 }
 
@@ -115,34 +115,21 @@ button{
     margin: 0 5px;
 }
 
-/*  }*/
+/* PRIMEIRA SEÇÃO }*/
 
 .diferencial{
     background-color: #FFFFFF;
     border-radius: 15px;
-    justify-items: center;
 }
-.bolas{
-
+/* SEGUNDA SEÇÃO }*/
+.viajar{
+    background-color: #000000;
 }
-.bolapreta{
-    height: 200px;
-    width: 200px;
-    background-color: #171717;
-    border-radius: 50%;
-    display: inline-block;
+/* TERCEIRA SEÇÃO }*/
+.veículo{
+    background-color: #FFFFFF;
 }
-.bolacinza{
-    height: 200px;
-    width: 200px;
-    background-color: #5C5353;
-    border-radius: 50%;
-    display: inline-block;
-}
-.bolalaranja{
-    height: 200px;
-    width: 200px;
-    background-color: #FF4301;
-    border-radius: 50%;
-    display: inline-block;
+/* QUARTA SEÇÃO }*/
+.fim{
+    background-color: #000000;
 }
