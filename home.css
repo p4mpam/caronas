@@ -6,9 +6,12 @@
     padding: 0px;
     list-style: none;
     text-decoration: none;
+    justify-content: center;
 }
 body{
     background-color: #000000;
+    overflow-x: hidden;
+    height: 100%;
 }
 
 /* HEADER/CABEÇA DO SITE, LUGARZINHO ONDE ESTÁ OS LINS E LOGO }*/
@@ -60,12 +63,12 @@ label #cancel{
 }
 @media (max-width: 1118px) {
     nav img{
-        left: 8%;
+        left: 5%;
     }
 }
 @media (max-width: 944px) {
     nav img{
-        left: 6%;
+        left: 4%;
         top: 20px;
         width: 130px;
     }
@@ -75,25 +78,26 @@ label #cancel{
 }
 
 /* COMEÇO DAS PAGES! NO CASO AS SECTION }*/
+               /* HOME }*/
 
 .baixe{
-    align-items: center;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
     font-family: Roboto;
-    justify-content: center;
 }
 .baixeaqui{
-    display: flex;
     flex-direction: column;
+    gap: 5px;
 }
 .umbaixe{
     color: #FFFF;
-    font-size: 70px;
+    font-size: 50px;
 }
 .caronasum{
     color: #FF4301;
-    font-size: 100px;
+    font-size: 90px;
 }
 .dispo{
     color: #FFFF;
@@ -113,6 +117,9 @@ button{
     width: 200px;
     color: #2F2E41;
     margin: 0 5px;
+}
+.svgbaixe{
+    width: 40px;
 }
 
 /* PRIMEIRA SEÇÃO }*/
@@ -151,10 +158,10 @@ button{
     background-color: transparent;
 }
 ::-webkit-scrollbar-thumb{
-    background-color:#000000;
-    border-radius: 10px;
+    background-color: transparent;
+    border-radius: 5px;
 }
 ::-webkit-scrollbar-thumb:hover{
     background-color:#FF4301;
-    transition: 7s;
+    transition: .10s;
 }
