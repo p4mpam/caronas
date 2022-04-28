@@ -32,15 +32,15 @@ nav ul{
 nav ul li{
     display: inline-block;
     line-height: 80px;
-    margin: 0 5px;
+    margin: 0 3px;
 }
 nav ul li a{
     position: relative;
     color: #5C5353;
     font-family: Poppins;
-    font-size: 15px;
+    font-size: 13px;
     text-transform: uppercase;
-    padding: 7px 12px;
+    padding: 0px 5px;
 }
 a.active, a:hover{
     background: #FF4301;
@@ -118,37 +118,39 @@ button{
     color: #2F2E41;
     margin: 0 5px;
 }
-.svgbaixe{
-    width: 40px;
+.mainimg{
+    width: 100px;
+    height: 100px;
 }
 
-/* PRIMEIRA SEÇÃO }*/
+
+/* PRIMEIRA SEÇÃO 
 
 .diferencial{
     background-color: #FFFFFF;
     border-radius: 15px;
 }
 
-/* SEGUNDA SEÇÃO }*/
+ --------- SEGUNDA SEÇÃO 
 
 .viajar{
     background-color: #000000;
 }
 
-/* TERCEIRA SEÇÃO }*/
+------------- TERCEIRA SEÇÃO 
 
 .veículo{
     background-color: #FFFFFF;
 }
 
-/* QUARTA SEÇÃO }*/
+ ------------ QUARTA SEÇÃO 
 
 .fim{
     background-color: #000000;
 }
 
 
-/* SCROLLBAR (BARRA DE ROLAGEM) }*/
+ -------------SCROLLBAR (BARRA DE ROLAGEM) 
 
 
 ::-webkit-scrollbar{
@@ -165,3 +167,5 @@ button{
     background-color:#FF4301;
     transition: .10s;
 }
+
+*/
