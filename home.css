@@ -12,6 +12,7 @@ body{
     background-color: #000000;
     overflow-x: hidden;
     height: 100%;
+    margin: 0 auto;
 }
 
 /* HEADER/CABEÇA DO SITE, LUGARZINHO ONDE ESTÁ OS LINS E LOGO }*/
@@ -70,7 +71,7 @@ label #cancel{
     nav img{
         left: 4%;
         top: 20px;
-        width: 130px;
+        width: 150px;
     }
     nav ul li a{
         font-size: 12px;
@@ -88,6 +89,7 @@ label #cancel{
     font-family: Roboto;
 }
 .baixeaqui{
+    margin-top: 150px;
     flex-direction: column;
     gap: 5px;
 }
@@ -103,6 +105,7 @@ label #cancel{
     color: #FFFF;
     font-size: 13px;
     left: 20px;
+    justify-items: center;
 }
 .um{
     font-size: 25px;
@@ -118,11 +121,29 @@ button{
     color: #2F2E41;
     margin: 0 5px;
 }
-.mainimg{
-    width: 100px;
-    height: 100px;
+.GooglePlay{
+    width: 45px;
+    left: 170px;
+    bottom: 172px;
 }
-
+.STORE{
+    width: 35px;
+    left: 390px;
+}
+.button{
+    margin-top: 10px;
+}
+.mainimg{
+    width: 444px;
+    margin-bottom: 100px;
+    bottom: -3px;
+    margin-top: 52px;
+}
+article{
+    width: 120px;
+    height: 120px;
+    background-color: transparent;
+}
 
 /* PRIMEIRA SEÇÃO 
 
