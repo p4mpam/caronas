@@ -144,6 +144,19 @@ article{
     height: 120px;
     background-color: transparent;
 }
+.seta{
+    display: block;
+    width: 100px;
+    bottom: 3px;
+    left: 600px;
+    -webkit-animation: seta infinite ease;
+}
+
+@keyframes seta{
+    from {transform: rotateY(1);}
+    to {transform: rotateY(-1);}
+
+}
 
 /* PRIMEIRA SEÇÃO 
 
