@@ -104,8 +104,6 @@ label #cancel{
 .dispo{
     color: #FFFF;
     font-size: 13px;
-    left: 20px;
-    justify-items: center;
 }
 .um{
     font-size: 25px;
@@ -123,12 +121,14 @@ button{
 }
 .GooglePlay{
     width: 45px;
-    left: 170px;
+    left: 165px;
     bottom: 172px;
+    position: absolute;
 }
 .STORE{
-    width: 35px;
-    left: 390px;
+    width: 33px;
+    left: 387px;
+    position: absolute;
 }
 .button{
     margin-top: 10px;
@@ -145,26 +145,55 @@ article{
     background-color: transparent;
 }
 .seta{
-    display: block;
+    position: absolute;
     width: 100px;
     bottom: 3px;
     left: 600px;
-    -webkit-animation: seta infinite ease;
+    cursor: pointer;
+
+      /* ANIMAÇÃO DA SETA }*/
+
+    animation-name: seta;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 @keyframes seta{
-    from {transform: rotateY(1);}
-    to {transform: rotateY(-1);}
+    from {transform: translate(0, 0px);}
+    65% {transform: translate(0, 15px);}
+    to {transform: translate(0, -0px);}
 
 }
 
-/* PRIMEIRA SEÇÃO 
+/* PRIMEIRA SEÇÃO */
 
 .diferencial{
+    margin-top: 200px;
     background-color: #FFFFFF;
     border-radius: 15px;
+    height: 220px;
+    font-family: Roboto;
+    justify-content: center;
+    flex-direction: row;
 }
-
+span{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    justify-content: center;
+}
+.bolapreta{
+    background-color: #2F2E41;
+}
+.bolacinza{
+    background-color: #5C5353;
+}
+.bolalaranja{
+    background-color: #FF4301;
+}
+/*
  --------- SEGUNDA SEÇÃO 
 
 .viajar{
