@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-*{
+
+* {
     margin: 0px;
     padding: 0px;
     list-style: none;
     text-decoration: none;
     justify-content: center;
 }
-body{
+
+body {
     background-color: #000000;
     overflow-x: hidden;
     height: 100%;
@@ -17,25 +19,29 @@ body{
 
 /* HEADER/CABEÇA DO SITE, LUGARZINHO ONDE ESTÁ OS LINS E LOGO }*/
 
-nav{
+nav {
     height: 80px;
     background: #F2F2F2;
 }
-img{
+
+img {
     width: 250px;
     position: absolute;
     margin-left: 40px;
 }
-nav ul{
+
+nav ul {
     float: right;
     margin-right: 50px;
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 3px;
 }
-nav ul li a{
+
+nav ul li a {
     position: relative;
     color: #5C5353;
     font-family: Poppins;
@@ -43,14 +49,17 @@ nav ul li a{
     text-transform: uppercase;
     padding: 0px 5px;
 }
-a.active, a:hover{
+
+a.active,
+a:hover {
     background: #FF4301;
     color: #F2F2F2;
     border-radius: 3px;
     transition: .7s;
 }
+
 label #btn,
-label #cancel{
+label #cancel {
     color: aliceblue;
     font-size: 30px;
     float: right;
@@ -59,57 +68,67 @@ label #cancel{
     cursor: pointer;
     display: none;
 }
-#check{
+
+#check {
     display: none;
 }
+
 @media (max-width: 1118px) {
-    nav img{
+    nav img {
         left: 5%;
     }
 }
+
 @media (max-width: 944px) {
-    nav img{
+    nav img {
         left: 4%;
         top: 20px;
         width: 150px;
     }
-    nav ul li a{
+
+    nav ul li a {
         font-size: 12px;
     }
 }
 
 /* COMEÇO DAS PAGES! NO CASO AS SECTION }*/
-               /* HOME }*/
+/* HOME }*/
 
-.baixe{
+.baixe {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     font-family: Roboto;
 }
-.baixeaqui{
+
+.baixeaqui {
     margin-top: 150px;
     flex-direction: column;
     gap: 5px;
 }
-.umbaixe{
+
+.umbaixe {
     color: #FFFF;
     font-size: 50px;
 }
-.caronasum{
+
+.caronasum {
     color: #FF4301;
     font-size: 90px;
 }
-.dispo{
+
+.dispo {
     color: #FFFF;
     font-size: 13px;
 }
-.um{
+
+.um {
     font-size: 25px;
     color: #F2F2F2;
 }
-button{
+
+button {
     border-radius: 10px;
     border: none;
     cursor: pointer;
@@ -119,39 +138,45 @@ button{
     color: #2F2E41;
     margin: 0 5px;
 }
-.GooglePlay{
+
+.GooglePlay {
     width: 45px;
     left: 165px;
     bottom: 172px;
     position: absolute;
 }
-.STORE{
+
+.STORE {
     width: 33px;
     left: 387px;
     position: absolute;
 }
-.button{
+
+.button {
     margin-top: 10px;
 }
-.mainimg{
+
+.mainimg {
     width: 444px;
     margin-bottom: 100px;
     bottom: -3px;
     margin-top: 52px;
 }
-article{
+
+article {
     width: 120px;
     height: 120px;
     background-color: transparent;
 }
-.seta{
+
+.seta {
     position: absolute;
     width: 100px;
     bottom: 3px;
     left: 600px;
     cursor: pointer;
 
-      /* ANIMAÇÃO DA SETA }*/
+    /* ANIMAÇÃO DA SETA }*/
 
     animation-name: seta;
     animation-duration: 3s;
@@ -159,40 +184,79 @@ article{
     animation-timing-function: ease-in-out;
 }
 
-@keyframes seta{
-    from {transform: translate(0, 0px);}
-    65% {transform: translate(0, 15px);}
-    to {transform: translate(0, -0px);}
+@keyframes seta {
+    from {
+        transform: translate(0, 0px);
+    }
+
+    65% {
+        transform: translate(0, 15px);
+    }
+
+    to {
+        transform: translate(0, -0px);
+    }
 
 }
 
 /* PRIMEIRA SEÇÃO */
 
-.diferencial{
+.diferencial {
     margin-top: 200px;
     background-color: #FFFFFF;
     border-radius: 15px;
-    height: 220px;
+    height: 300px;
     font-family: Roboto;
+    display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: row;
 }
-span{
+
+span {
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    height: 220px;
+    width: 220px;
     display: inline-block;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 6px;
+    margin: 0 55px;
 }
-.bolapreta{
+
+.bolapreta {
     background-color: #2F2E41;
 }
-.bolacinza{
+
+.bolacinza {
     background-color: #5C5353;
 }
-.bolalaranja{
+
+.bolalaranja {
     background-color: #FF4301;
 }
+
+.pp {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.encomentar{
+    width: 170px;
+    bottom: -260px;
+    left: 210px;
+}
+.freted{
+    width: 170px;
+    bottom: -260px;
+    left: 550px;
+}
+.rendav{
+    width: 170px;
+    bottom: -260px;
+    left: 880px;  
+}
+
 /*
  --------- SEGUNDA SEÇÃO 
 
