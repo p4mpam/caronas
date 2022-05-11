@@ -215,8 +215,8 @@ article {
 
 span {
     border-radius: 50%;
-    height: 220px;
-    width: 220px;
+    height: 200px;
+    width: 200px;
     display: inline-block;
     align-items: center;
     justify-content: space-around;
@@ -242,28 +242,49 @@ span {
     justify-content: space-evenly;
 }
 .encomentar{
-    width: 170px;
+    width: 160px;
     bottom: -260px;
-    left: 210px;
+    left: 240px;
 }
 .freted{
-    width: 170px;
+    width: 160px;
     bottom: -260px;
-    left: 550px;
+    left: 555px;
 }
 .rendav{
-    width: 170px;
+    width: 160px;
     bottom: -260px;
-    left: 880px;  
+    right: 280px;  
 }
 
-/*
  --------- SEGUNDA SEÇÃO 
 
 .viajar{
-    background-color: #000000;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.viajeimg{
+    width: 570px;
+    bottom: -800px;
+    left: 100px;
+}
+.viajeimg{
+    margin-top: 150px;
+    flex-direction: column;
+    gap: 5px;
+}
+.umv{
+    color: #FF4301;
+    font-size: 90px;
+    font-family: Lato;
+
+    left: 100px;
 }
 
+/*
 ------------- TERCEIRA SEÇÃO 
 
 .veículo{
