@@ -259,29 +259,34 @@ span {
 
  --------- SEGUNDA SEÇÃO 
 
+ 
+
 .viajar{
     height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    font-family: Lato;
 }
 .viajeimg{
     width: 570px;
     bottom: -800px;
     left: 100px;
 }
-.viajeimg{
-    margin-top: 150px;
+.viajeaqui{
     flex-direction: column;
     gap: 5px;
 }
 .umv{
     color: #FF4301;
-    font-size: 90px;
+    font-size: 80px;
     font-family: Lato;
-
-    left: 100px;
+    right: 200px;
+}
+.doiv{
+    color: #FFFFFF;
+    font-family: Lato;
 }
 
 /*
